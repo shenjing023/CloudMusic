@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/TitleBar/TitleBar.qml</file>
+        <file>images/logo.ico</file>
+        <file>font/icomoon.ttf</file>
+        <file>qml/TitleBar/TitleBarBtn.qml</file>
+        <file>qml/LeftWindow/LeftWindow.qml</file>
+        <file>qml/LeftWindow/ListItemBtn.qml</file>
+        <file>qml/BottomWindow/BtnPlay.qml</file>
+        <file>qml/BottomWindow/SliderPlay.qml</file>
+        <file>images/list_lyric(1).png</file>
+        <file>images/list_lyric(2).png</file>
+        <file>images/lyric(1).png</file>
+        <file>images/lyric(2).png</file>
+        <file>qml/BottomWindow/BottomWindow.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/DiscoverMusic.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/TabBtn.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/Recommand/Recommand.qml</file>
+        <file>images/ABC23.png</file>
+        <file>qml/RightWindow/DiscoverMusic/NetWorkError.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/Loading.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/Recommand/SongListItem.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/Recommand/PrivateContentItem.qml</file>
+        <file>qml/RightWindow/DiscoverMusic/Recommand/NewSongItem.qml</file>
+        <file>qml/Utils/CustomMouseArea.qml</file>
+        <file>qml/RightWindow/Developing.qml</file>
+        <file>images/searchBorderImg.png</file>
+        <file>qml/TitleBar/SearchRect.qml</file>
+        <file>qml/RightWindow/SearchWindow/SearchWindow.qml</file>
+        <file>qml/RightWindow/SearchWindow/TabBtn.qml</file>
+        <file>qml/RightWindow/SearchWindow/Single.qml</file>
+        <file>qml/RightWindow/SearchWindow/SingleDelegate.qml</file>
+        <file>qml/RightWindow/LocalMusic/LocalMusic.qml</file>
+        <file>qml/RightWindow/LocalMusic/MusicList.qml</file>
+        <file>qml/RightWindow/LocalMusic/MusicListDelegate.qml</file>
+        <file>qml/SpectrumWindow/MiniWindow.qml</file>
+        <file>qml/SpectrumWindow/SpectrumWindow.qml</file>
+        <file>qml/SpectrumWindow/MaxWindow.qml</file>
+        <file>qml/BottomWindow/CustomSlider.qml</file>
+        <file>qml/BottomWindow/CustomSwitch.qml</file>
+        <file>qml/BottomWindow/SoundEffect.qml</file>
+    </qresource>
+</RCC>

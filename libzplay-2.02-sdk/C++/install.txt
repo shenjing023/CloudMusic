@@ -1,0 +1,63 @@
+=======================================================================
+=======================================================================
+
+How to use libZPlay with C++
+
+=======================================================================
+=======================================================================
+
+1. Include libzplay.h into your source code
+
+=======================================================================
+
+
+2. Include libZPlay namespace
+
+   using namespace libZPlay;
+
+
+=======================================================================
+
+3. Link your project with import library.
+
+   libzplay.lib          - VC++ import library for libzplay.dll
+   libzplay_borland.lib  - Borland C++ import library for libzplay.dll
+   libzplay.a            - MinGW/GCC import library for libzplay.dll
+
+
+=======================================================================
+
+4. Create ZPlay class.
+
+   ZPlay *player = CreateZPlay();
+
+=======================================================================
+
+
+5. Open file.
+
+   if(player->OpenFile("mySong.mp3", sfAutodetect) == 0)
+   {
+      // error
+   }
+
+=======================================================================
+
+
+6. Start playing
+
+   player->Play();
+
+=======================================================================
+
+
+7. At the end destroy ZPlay class
+
+   player->Release();
+
+
+=======================================================================
+NOTE:
+=======================================================================
+
+You must distribute libzplay.dll with your application.

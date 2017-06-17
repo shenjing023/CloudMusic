@@ -1,0 +1,61 @@
+=======================================================================
+=======================================================================
+
+How to use libZPlay with C# .NET
+
+=======================================================================
+=======================================================================
+
+1. Add libZPlay.cs to your solution/project.
+
+   Add->Existing Item... ->libZPlay.cs
+
+=======================================================================
+
+
+2. Add reference to System.Drawing if not included yet.
+   
+   Add Reference-> .NET ->System.Drawing
+
+=======================================================================
+
+
+3. Include libZPlay namespace into your source code
+
+   using libZPlay;
+
+=======================================================================
+
+
+4. Create ZPlay class.
+
+   ZPlay player = new ZPlay();
+
+=======================================================================
+
+
+5. Open file.
+
+   if (player.OpenFile("test.mp3", TStreamFormat.sfAutodetect) == false)
+   {
+      // error
+   }
+
+=======================================================================
+
+
+6. Start playing
+
+   player.StartPlayback();
+
+=======================================================================
+
+
+7. At the end destroy ZPlay class (by garbage collector or manually).
+
+
+=======================================================================
+NOTE:
+=======================================================================
+
+You must distribute libzplay.dll with your application.

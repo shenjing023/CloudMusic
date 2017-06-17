@@ -85,11 +85,11 @@ HEADERS += \
 #INCLUDEPATH += C:\libzplay-2.02-sdk\C++
 #LIBS += C:\libzplay-2.02-sdk\C++\libzplay.lib
 
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../libzplay-2.02-sdk/C++/ -llibzplay
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../libzplay-2.02-sdk/C++/ -llibzplayd
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../../libzplay-2.02-sdk/C++/ -llibzplay
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../../libzplay-2.02-sdk/C++/ -llibzplayd
 
-INCLUDEPATH += $$PWD/../../../../libzplay-2.02-sdk/C++
-DEPENDPATH += $$PWD/../../../../libzplay-2.02-sdk/C++
+INCLUDEPATH += $$PWD/../../../../../libzplay-2.02-sdk/C++
+DEPENDPATH += $$PWD/../../../../../libzplay-2.02-sdk/C++
 
 #win32:CONFIG(release, debug|release): LIBS += -L$$PWD/'../../../../Program Files/Python36/libs/' -lpython36
 #else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/'../../../../Program Files/Python36/libs/' -lpython36d

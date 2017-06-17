@@ -1,0 +1,60 @@
+=======================================================================
+=======================================================================
+
+How to use libZPlay with Visual Basic .NET
+
+=======================================================================
+=======================================================================
+
+1. Add libZPlay.vb to your solution/project.
+
+   Add->Existing Item... ->libZPlay.vb
+
+=======================================================================
+
+
+2. Add reference to System.Drawing if not included yet.
+   
+   Add Reference-> .NET ->System.Drawing
+
+=======================================================================
+
+
+3. Include libZPlay namespace into your source code
+
+   Imports MyApplication.libZPlay
+
+=======================================================================
+
+
+4. Create ZPlay class.
+
+   Dim player As New ZPlay()
+
+=======================================================================
+
+
+5. Open file.
+
+   If player.OpenFile("test.mp3", TStreamFormat.sfAutodetect) = False Then
+     '' error
+   End If
+
+=======================================================================
+
+
+6. Start playing
+
+   player.StartPlayback()
+
+=======================================================================
+
+
+7. At the end destroy ZPlay class (by garbage collector or manually).
+
+
+=======================================================================
+NOTE:
+=======================================================================
+
+You must distribute libzplay.dll with your application.

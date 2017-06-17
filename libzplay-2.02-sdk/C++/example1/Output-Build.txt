@@ -1,0 +1,6 @@
+------ Build started: Project: example1, Configuration: Release Win32 ------
+Linking...
+Embedding manifest...
+Build log was saved at "file://d:\20tren\libzplay-2.00-sdk\C++\example1\Release\BuildLog.htm"
+example1 - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
